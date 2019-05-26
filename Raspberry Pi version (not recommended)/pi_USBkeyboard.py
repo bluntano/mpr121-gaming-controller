@@ -73,7 +73,6 @@ def write_report(report):
 
 # Testing testing, Seth is gay!
 # lol
-
 # Keys
 KEY_MAPPING = {
 	0: (NULL_CHAR*2+chr(79)+NULL_CHAR*5),   # right arrow
