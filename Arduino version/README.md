@@ -25,7 +25,7 @@ Also a QUICK NOTE regarding to SparkFun Pro Micro users, maybe some of you are, 
 
 - Here's the full stuff about a lot of stuff covered [here!](https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide/all) But I do wanna mention real quick:
 	- Make sure you give a little tab of superglue under the micro-USB port. Pro Micros have this tendency to have micro-USB to break off due to very bad soldering
-	- **MAKE SURE YOU CHOOSE THE RIGHT PROCESSOR IN ARDUINO IDE BEFORE UPLOADING THE CODE ONTO THE BOARD!!!** If you have a 5V/16MHz processor, **CHOOSE THAT VERSION OR YOU'LL BRICK THE BOARD!!!** On default it is set on 3.3V 8MHz version so, to change that, go to your Arduino IDE, choose Tools -> Processor -> <choose your version there>
+	- **MAKE SURE YOU CHOOSE THE RIGHT PROCESSOR IN ARDUINO IDE BEFORE UPLOADING THE CODE ONTO THE BOARD!!!** If you have a 5V/16MHz processor, **CHOOSE THAT VERSION OR YOU'LL BRICK THE BOARD!!!** On default it is set on 3.3V 8MHz version so, to change that, go to your Arduino IDE, choose Tools -> Processor -> ATmega32U4 (5V/16MHz) or (3.3V/8Mhz)
 	- If your Pro Micro stops working all of a sudden and you've followed those two above things, don't worry! Mine stopped working and, I'm trying to figure out why. Only the power LED is on when plugged in.
 
 I used the MPR121 Cap. Touch HAT sensor on my SparkFun Pro Micro board and I connnected jumper wires accordingly:
