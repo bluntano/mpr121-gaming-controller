@@ -30,7 +30,7 @@ Also a QUICK NOTE regarding to SparkFun Pro Micro users, maybe some of you are, 
 I used the MPR121 Cap. Touch HAT sensor on my SparkFun Pro Micro board and I connnected jumper wires accordingly:
 - SDA -> D2 (Digital 2)
 - SCL -> D3 (Digital 3)
-- 3.3V -> VCC (5V gave me I think grounding issues? The sensor went apeshit)
+- +3V -> VCC (+5V gave me I think grounding issues? The sensor went apeshit)
 - GND -> GND
    
 ## Any additional material I could use?
