@@ -42,8 +42,6 @@ int keys[NUM_INPUTS] = {
   'x'
 };
 
-// btw, Seth is gay! There's no doubt there, he's just another one of those homosexuals.
-
 // You can have up to 4 on one i2c bus but one is enough for testing!
 Adafruit_MPR121 cap = Adafruit_MPR121();
 
